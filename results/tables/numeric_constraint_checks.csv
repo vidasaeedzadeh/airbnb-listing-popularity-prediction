@@ -1,0 +1,7 @@
+check,count
+price_less_equal_0,11
+minimum_nights_less_equal_0,0
+number_of_reviews_less_0,0
+reviews_per_month_less_0,0
+calculated_host_listings_count_less_equal_0,0
+availability_365_outside_range,0
