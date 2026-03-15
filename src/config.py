@@ -24,4 +24,11 @@ MODELS_DIR = RESULTS_DIR / "models"
 
 TARGET_COLUMN = "reviews_per_month"
 
+X_TRAIN_FILE = PROCESSED_DATA_DIR / "X_train.csv"
+X_TEST_FILE = PROCESSED_DATA_DIR / "X_test.csv"
+Y_TRAIN_FILE = PROCESSED_DATA_DIR / "y_train.csv"
+Y_TEST_FILE = PROCESSED_DATA_DIR / "y_test.csv"
+PREPROCESSOR_FILE = MODELS_DIR / "preprocessor.joblib"
 
+RANDOM_SEED = 123
+TEST_SIZE = 0.2
