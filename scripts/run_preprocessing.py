@@ -5,7 +5,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 
 from src.config import (
-    CLEANED_DATA_FILE,
+    FEATURE_DATA_FILE,
     METRICS_DIR,
     MODELS_DIR,
     PREPROCESSOR_FILE,
@@ -36,7 +36,7 @@ def ensure_output_directory(directory: Path) -> None:
     directory.mkdir(parents=True, exist_ok=True)
 
 
-def load_cleaned_data(file_path: Path = CLEANED_DATA_FILE) -> pd.DataFrame:
+def load_cleaned_data(file_path: Path = FEATURE_DATA_FILE) -> pd.DataFrame:
     """
     Load cleaned Airbnb dataset.
 

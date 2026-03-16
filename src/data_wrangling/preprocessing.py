@@ -8,13 +8,11 @@ from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from src.config import TARGET_COLUMN
 
 
-numeric_features = ["price","minimum_nights","calculated_host_listings_count","availability_365"]
-
+numeric_features = ["price","minimum_nights","calculated_host_listings_count","availability_365","log_price",
+                    "log_minimum_nights","log_calculated_host_listings_count","distance_from_manhattan_km",
+                    "name_sentiment","days_since_last_review","is_professional_host"]
 categorical_features = ["neighbourhood_group","room_type"]
-
-passthrough_features = ["latitude","longitude"]
-
-drop_features = ["number_of_reviews","neighbourhood"]
+drop_features = ["neighbourhood"]
 
 
 def fill_na_in_target(
@@ -91,7 +89,6 @@ def build_preprocessing_pipeline() -> ColumnTransformer:
         transformers=[
             ("num", numeric_transformer, numeric_features),
             ("cat", categorical_transformer, categorical_features),
-            ("coords", "passthrough", passthrough_features),
             ("drop_cols", "drop", drop_features),
         ],
         remainder="drop",

@@ -1,0 +1,3 @@
+number_of_reviews_zero,count,reviews_per_month_missing_rate,last_review_missing_rate
+False,38833,0.0,0.0
+True,10051,1.0,1.0
