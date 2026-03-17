@@ -33,4 +33,64 @@ The goal of this project is to:
 - Evaluate model performance and interpret important features
 
 
+---
+
+## Pipeline
+
+The project follows a modular workflow:
+
+1. Data validation & overview  
+2. Data cleaning  
+3. Exploratory Data Analysis (EDA)  
+4. Feature engineering  
+5. Preprocessing  
+6. Model training & evaluation  
+7. Model interpretation  
+
+---
+
+## Models Used
+
+- Linear Regression  
+- Ridge Regression  
+- Decision Tree  
+- Random Forest  
+- XGBoost  
+
+---
+
+## Results (Test Performance)
+
+| Model            | R²   | RMSE | NRMSE |
+|------------------|------|------|------|
+| Linear Regression | 0.23 | 1.38 | 0.103 |
+| Ridge Regression  | 0.23 | 1.38 | 0.103 |
+| Decision Tree     | 0.56 | 1.04 | 0.078 |
+| Random Forest     | **0.61** | **0.99** | **0.074** |
+| XGBoost           | 0.60 | 0.99 | 0.074 |
+
+👉 **Random Forest selected as final model**
+
+---
+
+## Key Insights
+
+- Listing popularity is driven more by **behavioral signals** than static attributes  
+- **Recent activity (`days_since_last_review`)** is the strongest predictor  
+- **Minimum nights and availability** strongly impact engagement  
+- Nonlinear models significantly outperform linear models  
+
+---
+
+## How to Run
+
+```bash
+# Step 1: install dependencies
+pip install -r requirements.txt
+
+# Step 2: run pipeline
+python -m scripts.run_pipeline
+
+
+
 

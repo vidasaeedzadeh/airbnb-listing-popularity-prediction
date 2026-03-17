@@ -4,6 +4,7 @@ from scripts.run_eda import main as run_eda
 from scripts.run_feature_engineering import main as run_feature_engineering
 from scripts.run_preprocessing import main as run_preprocessing
 from scripts.run_training import main as run_training
+from scripts.run_training import main as run_feature_importance
 
 
 def main() -> None:
@@ -25,6 +26,9 @@ def main() -> None:
 
     print("Step 6: Model Training")
     run_training()
+
+    print("Step 7: feature importance")
+    run_feature_importance()
 
     print("Pipeline completed successfully.")
 
