@@ -1,0 +1,20 @@
+feature,importance
+num__days_since_last_review,0.32406995
+num__log_minimum_nights,0.123662814
+num__minimum_nights,0.085040994
+num__log_calculated_host_listings_count,0.055110402
+num__availability_365,0.048001174
+cat__neighbourhood_group_Queens,0.046287138
+num__calculated_host_listings_count,0.038804907
+cat__room_type_Entire home/apt,0.033089634
+num__name_sentiment,0.032194156
+num__distance_from_manhattan_km,0.030527908
+num__is_professional_host,0.030075736
+cat__room_type_Private room,0.023681877
+cat__room_type_Shared room,0.023173286
+num__price,0.021719245
+num__log_price,0.020714156
+cat__neighbourhood_group_Manhattan,0.01850804
+cat__neighbourhood_group_Brooklyn,0.017512206
+cat__neighbourhood_group_Bronx,0.015245519
+cat__neighbourhood_group_Staten Island,0.012580888

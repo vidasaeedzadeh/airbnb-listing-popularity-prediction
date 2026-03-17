@@ -1,0 +1,2 @@
+n_train_rows,n_test_rows,n_transformed_features,test_size,random_seed
+39107,9777,19,0.2,123

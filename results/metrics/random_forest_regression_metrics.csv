@@ -1,0 +1,2 @@
+model,cv_r2_score,mean_fit_time,mean_score_time,train_r2,test_r2,test_rmse,test_nrmse,best_n_estimators,best_max_depth,best_min_samples_split,best_min_samples_leaf,best_max_features
+random_forest_regression,0.6002082443135918,7.143150568008423,0.08187503814697265,0.7973786706684917,0.6072147587119263,0.9893749463983428,0.07383395122375692,200,15,2,1,sqrt

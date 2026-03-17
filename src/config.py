@@ -9,6 +9,7 @@ PROCESSED_DATA_DIR = DATA_DIR / "processed"
 
 RAW_DATA_FILE = RAW_DATA_DIR / "AB_NYC_2019.csv"
 CLEANED_DATA_FILE = PROCESSED_DATA_DIR / "airbnb_cleaned.csv"
+FEATURE_DATA_FILE = PROCESSED_DATA_DIR / "airbnb_features.csv"
 
 
 ################Results and Figures###################

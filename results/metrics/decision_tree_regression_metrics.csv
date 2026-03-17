@@ -1,0 +1,2 @@
+model,cv_r2_score,mean_fit_time,mean_score_time,train_r2,test_r2,test_rmse,test_nrmse,best_max_depth,best_min_samples_split,best_min_samples_leaf
+decision_tree_regression,0.5492907343035767,0.061932039260864255,0.001561450958251953,0.5608899297815932,0.5649008154978186,1.0413038229387344,0.077709240517816,5,2,1

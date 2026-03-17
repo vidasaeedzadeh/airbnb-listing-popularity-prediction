@@ -117,8 +117,8 @@ def run_feature_engineering(df: pd.DataFrame) -> pd.DataFrame:
         columns_to_drop=["number_of_reviews","latitude","longitude","name"]
     )
 
-    add_days_since_last_review(df)
-    add_host_features(df)
+    df = add_days_since_last_review(df)
+    df = add_host_features(df)
 
     return df
 
