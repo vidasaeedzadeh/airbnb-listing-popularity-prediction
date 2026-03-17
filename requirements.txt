@@ -1,8 +1,9 @@
 pandas
 numpy
+scikit-learn
 matplotlib
 seaborn
-scikit-learn
-jupyter
+xgboost
+shap
 joblib
 nltk

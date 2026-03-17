@@ -69,7 +69,7 @@ The project follows a modular workflow:
 | Random Forest     | **0.61** | **0.99** | **0.074** |
 | XGBoost           | 0.60 | 0.99 | 0.074 |
 
-👉 **Random Forest selected as final model**
+**Random Forest selected as final model**
 
 ---
 
