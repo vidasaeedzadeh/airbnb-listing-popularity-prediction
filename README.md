@@ -66,8 +66,8 @@ The project follows a modular workflow:
 | Linear Regression | 0.23 | 1.38 | 0.103 |
 | Ridge Regression  | 0.23 | 1.38 | 0.103 |
 | Decision Tree     | 0.56 | 1.04 | 0.078 |
-| Random Forest     | **0.61** | **0.99** | **0.074** |
-| XGBoost           | 0.60 | 0.99 | 0.074 |
+| Random Forest     | **0.83** | **0.99** | **0.074** |
+| XGBoost           | 0.82 | 0.99 | 0.074 |
 
 **Random Forest selected as final model**
 
